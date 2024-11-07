@@ -110,7 +110,7 @@ function App() {
     // condicao de vitoria 
 
     if(guessedLetters.length === uniqueLetters.length){
-      setScore((actualScore) => actualScore += 100)
+      setScore((actualScore) => actualScore + 100)
 
       startGame();
     }
